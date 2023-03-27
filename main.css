@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    max-width: 1535px;
+    margin: auto;
+}
+.header{
+    height: 800px;
+    background-color: #eee;
+    position: relative;
+}
+.top-header{
+    display: flex;
+    padding: 20px 200px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: -12px auto;
+}
+.icon-1{
+    position: relative;
+}
+.icon-2{
+    position: relative;
+}
+.list-logo a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 5px;
+}
+.list-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;   
+    gap: 40px;
+    padding: 40px 0;
+}
+.list-menu a{
+    text-decoration: none;
+    color: #000;
+}
+.title{
+    position: absolute;
+    right: 650px;
+    width: 680px;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding:100px 0 ;
+}
+.title p{
+    padding: 40px 0;
+}
+.title .btn{
+    padding: 15px 25px;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    cursor: pointer;
+}
+.banner{
+    display: flex;
+    justify-content: flex-end;
+}
+.banner img{
+    border: 1px solid;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    position: absolute;
+    left: 900px;
+}
+.brand-logo{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 60px;
+}
+.brand{
+    position: relative;
+    height: 708px;
+}
+.category img{
+    position:absolute ;
+    top: 0;
+    left: 90px;
+}
+.category-1{
+    position: absolute;
+}
+.category-1 h2{
+    position: absolute;
+    top: 25px;
+    left: 1102px;
+    z-index: 1;
+    border: 1px solid #000;
+    padding: 6px 12px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.product{
+    height: 1140px;
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.list-item ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+ 
+}
+.list-item a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.list-item .btn{
+    padding: 5px 12px;
+    color: #fff;
+    background-color: #000;
+}
+.list-products{
+    /* tạo lưới cấp khối  */
+    display: grid;
+    /* minmax(càng to thì càng ít cột và ngược lại,auto) */
+    grid-template-columns: repeat(auto-fit,minmax(310px,auto));
+    gap: 20px;
+    padding: 0 100px;
+}
+.title-products h3{
+    padding-left: 5px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+.row{
+    position: relative;
+}
+.label h5{
+    position: absolute;
+    border: 1px solid;
+    top: 10px;
+    padding: 2px 8px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 400;
+}
+.brand-banner{
+    position: relative;
+    height: 850px;
+}
+.title-banner{
+    position: absolute;
+    color: #fff;
+    top: 235px;
+    left: 1081px;
+}
+.title-banner p{
+    text-transform: capitalize;
+    width: 290px;
+    line-height: 30px;
+    padding: 30px 0;
+}
+.title-banner .btn{
+    padding: 12px 16px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.follow-product{
+    height: 650px;
+    background-color: #eee;
+}
+.follow-item ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 76px;
+    list-style: none;
+}
+.follow-item h3{
+    text-align: center;
+    font-size: 42px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    padding: 30px 480px;
+}
+.search-email{
+    display: flex;
+    flex: 1;
+    padding-right: 20px;
+}
+.email .inp{
+    flex: 1;
+    border: none;
+    border-bottom: 1px solid;   
+    padding: 12px;
+    background-color: #eee;
+}
+.email .btn{
+    border: none;
+    border-bottom: 1px solid;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+    gap: 62px;
+    padding: 100px;
+}
+.logo-coral{
+    display: flex;
+    align-items: center;
+}
+.icon-coral{
+    position: relative;
+}
+.logo-coral{
+    margin-left: 16px;
+}
+.catalog ul{
+    list-style: none;
+    padding: 18px 0;
+}
+.catalog a{
+    text-decoration: none;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #000;
+}
